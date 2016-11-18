@@ -33,6 +33,8 @@ function getRandomTip() {
 $(document).ready(function() {
     $('.submit-tip').click(function() {
         addTip($('.input-tip').val());
+        console.log(tips);
+        $('.input-tip').val('');
     });
 
     $('.get-tip').click(function() {
