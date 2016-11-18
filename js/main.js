@@ -5,10 +5,10 @@ var tips = [{
     "text": "Don't bring up politics at dinner!",
     "imageUrl": "http://www.rawstory.com/wp-content/uploads/2015/11/SNL-thanksgiving-800x430.jpg"
 }, {
-    "text": "Don't bring up politics at dinner!",
-    "imageUrl": "http://www.rawstory.com/wp-content/uploads/2015/11/SNL-thanksgiving-800x430.jpg"
+    "text": "Bring a hotplate to keep your food warm while everyone passes the food around the table when at big gatherings.",
+    "imageUrl": "http://www.asia.ru/images/target/photo/51552699/Electric_Hot_Plate.jpg"
 }, {
-    "text": "That can of cranberry sauce will help you break the window to your car when you lock you keys in it while out to grab 'one last thin' before dinner",
+    "text": "That can of cranberry sauce will help you break the window to your car when you lock you keys in it while out to grab 'one last thing' before dinner.",
     "imageUrl": "http://blogs.wickedlocal.com/massmarkets/files/2011/12/acransauce2.jpg"
 }, {
     "text": "Choose different giftwrap for each person so you can easily tell who gets which present.",
