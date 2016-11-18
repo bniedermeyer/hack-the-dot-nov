@@ -15,10 +15,13 @@ var tips = [{
     "imageUrl": "https://thumbs.dreamstime.com/x/pile-christmas-gift-12117042.jpg"
 }];
 
-function addTip(newTipText) {
+function addTip(newTipText, newtipUrl) {
+    if (newtipUrl === undefined) {
+        newtipUrl = null;
+    }
     var newTip = {
         "text": newTipText,
-        "imageUrl": null
+        "imageUrl": newtipUrl
     };
     tips.push(newTip);
 }
@@ -32,8 +35,9 @@ function getRandomTip() {
 
 $(document).ready(function() {
     $('.submit-tip').click(function() {
-        addTip($('.input-tip').val());
-        console.log(tips);
+        val text = $('.input-tip').val();
+        val imgUrl = $('.input-pic').val();
+        addTip(text, imgUrl);
         $('.input-tip').val('');
     });
 
