@@ -1,5 +1,6 @@
 #content-col {
     background-image: url('/img/bg.png');
+    background-repeat: no-repeat;
     min-height: 433px;
 }
 
