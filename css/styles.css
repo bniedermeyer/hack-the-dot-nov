@@ -2,3 +2,8 @@
     background-image: url('/img/bg.png');
     min-height: 433px;
 }
+
+.tip-container, .tip-image {
+    max-width: 90%;
+    margin: auto;
+}
