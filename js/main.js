@@ -39,6 +39,8 @@ $(document).ready(function() {
         var imgUrl = $('.input-pic').val();
         addTip(text, imgUrl);
         $('.input-tip').val('');
+        $('.input-pic').val('');
+
     });
 
     $('.get-tip').click(function() {
