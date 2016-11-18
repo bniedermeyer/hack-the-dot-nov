@@ -35,8 +35,8 @@ function getRandomTip() {
 
 $(document).ready(function() {
     $('.submit-tip').click(function() {
-        val text = $('.input-tip').val();
-        val imgUrl = $('.input-pic').val();
+        var text = $('.input-tip').val();
+        var imgUrl = $('.input-pic').val();
         addTip(text, imgUrl);
         $('.input-tip').val('');
     });
