@@ -37,7 +37,7 @@ $(document).ready(function() {
 
     $('.get-tip').click(function() {
         var tip = getRandomTip();
-        $('.tip-container').value(tip.text);
+        $('.tip-container').text(tip.text);
         if (tip.imageUrl === null) {
             $('.tip-image').hide();
         } else {
